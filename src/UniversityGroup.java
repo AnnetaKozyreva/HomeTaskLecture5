@@ -56,7 +56,6 @@ public class UniversityGroup {
         System.out.println("Students: " + String.join(", ", getStudentList()));
     }
 
-
         public static void main(String[] args) {
             ArrayList<String> studentArray = new ArrayList<String>();
             boolean student1 = studentArray.add("Student11");
@@ -71,7 +70,6 @@ public class UniversityGroup {
             for (int i = 0; i < studentList.length; i++) {
                 group2.addStudent(studentList[i]);
             }
-
             group1.removeStudent("Student12");
             group2.removeStudent("Student24");
 
