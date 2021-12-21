@@ -23,8 +23,7 @@ public class UniversityGroup {
     public String getGroupName() {
         return groupName;
     }
-
-
+    
     UniversityGroup(String gName, int sYear) {
         groupName = gName;
         startYear = sYear;
