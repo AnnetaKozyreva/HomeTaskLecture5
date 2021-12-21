@@ -40,9 +40,6 @@ public class UniversityGroup {
 
     }
 
-    UniversityGroup() {
-    }
-
     public void addStudent(String student) {
         studentList.add(student);
     }
@@ -61,7 +58,12 @@ public class UniversityGroup {
 
 
         public static void main(String[] args) {
-            ArrayList<String> studentArray = new ArrayList<String>(List.of("Student11", "Student12", "Student13", "Student14", "Student15"));
+            ArrayList<String> studentArray = new ArrayList<String>();
+            boolean student1 = studentArray.add("Student11");
+            boolean student2 = studentArray.add("Student12");
+            boolean student3 = studentArray.add("Student13");
+            boolean student4 = studentArray.add("Student14");
+            boolean student5 = studentArray.add("Student15");
             UniversityGroup group1 = new UniversityGroup("Group 1", 2014, studentArray);
 
             String[] studentList = {"Student21", "Student22", "Student23", "Student24", "Student25"};
